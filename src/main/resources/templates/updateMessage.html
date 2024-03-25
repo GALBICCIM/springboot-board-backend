@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<script th:inline="javascript">
+    /*<![CDATA[*/
+    const message = [[${message}]];
+    alert(message);
+
+    location.replace([[${searchUrl}]]);
+    /*]]>*/
+</script>
+</html>
